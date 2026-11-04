@@ -4,17 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.foundry4j</groupId>
-    <artifactId>java-commons</artifactId>
+    <artifactId>foundry4j-commons</artifactId>
     <version>1.0.1</version>
-    <url>https://github.com/foundry4j/java-commons</url>
+    <url>https://github.com/foundry4j/foundry4j-commons</url>
     <packaging>jar</packaging>
-    <name>Java Commons</name>
-    <description>A lightweight Java 26 common utility library.</description>
+    <name>Foundry4j Commons</name>
+    <description>A lightweight Java 27 common utility library.</description>
 
     <scm>
-        <connection>scm:git:git://github.com/foundry4j/java-commons.git</connection>
-        <developerConnection>scm:git:ssh://github.com:foundry4j/java-commons.git</developerConnection>
-        <url>https://github.com/foundry4j/java-commons/tree/main</url>
+        <connection>scm:git:git://github.com/foundry4j/foundry4j-commons.git</connection>
+        <developerConnection>scm:git:ssh://github.com:foundry4j/foundry4j-commons.git</developerConnection>
+        <url>https://github.com/foundry4j/foundry4j-commons/tree/main</url>
     </scm>
 
     <developers>
@@ -142,7 +142,7 @@
                 <configuration>
                     <publishingServerId>central</publishingServerId>
                     <checksums>required</checksums>
-                    <deploymentName>java-commons</deploymentName>
+                    <deploymentName>foundry4j-commons</deploymentName>
                 </configuration>
             </plugin>
             <plugin>
