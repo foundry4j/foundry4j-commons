@@ -3,30 +3,30 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.tuyucheng777</groupId>
+    <groupId>io.github.foundry4j</groupId>
     <artifactId>java-commons</artifactId>
-    <version>1.0.0</version>
-    <url>https://github.com/tuyucheng777/java-commons</url>
+    <version>1.0.1</version>
+    <url>https://github.com/foundry4j/java-commons</url>
     <packaging>jar</packaging>
-    <name>Java-Commons</name>
+    <name>Java Commons</name>
     <description>A lightweight Java 26 common utility library.</description>
 
     <scm>
-        <connection>scm:git:git://github.com/tuyucheng777/java-commons.git</connection>
-        <developerConnection>scm:git:ssh://github.com:tuyucheng777/java-commons.git</developerConnection>
-        <url>https://github.com/tuyucheng777/java-commons/tree/main</url>
+        <connection>scm:git:git://github.com/foundry4j/java-commons.git</connection>
+        <developerConnection>scm:git:ssh://github.com:foundry4j/java-commons.git</developerConnection>
+        <url>https://github.com/foundry4j/java-commons/tree/main</url>
     </scm>
 
     <developers>
         <developer>
-            <name>tuyucheng777</name>
-            <email>tuyucheng777@gmail.com</email>
-            <url>https://github.com/tuyucheng777</url>
+            <name>foundry4j</name>
+            <email>foundry4j@gmail.com</email>
+            <url>https://github.com/foundry4j</url>
         </developer>
     </developers>
 
     <properties>
-        <maven.compiler.release>26</maven.compiler.release>
+        <maven.compiler.release>27</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.10.2</junit.version>
         <jmh.version>1.37</jmh.version>
@@ -54,7 +54,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <release>26</release>
+                    <release>27</release>
                     <compilerArgs>
                         <arg>--enable-preview</arg>
                     </compilerArgs>
