@@ -1,6 +1,6 @@
-# Java Commons
+# Foundry4j Commons
 
-`Java Commons` 是一个基于 Java 27 的轻量级通用工具库，提供常用开发工具方法，包括：
+`Foundry4j Commons` 是一个基于 Java 27 的轻量级通用工具库，提供常用开发工具方法，包括：
 
 - IO 工具：流、文件、资源读取
 - 反射工具：字段、方法、注解访问
